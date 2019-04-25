@@ -5,9 +5,9 @@ spring:
     name: item-service
   datasource:
     driver-class-name:com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://20.48.5.5:4407/leyou?characterEncoding=UTF-8&useSSL=false
-    username: root
-    password: 123456
+    url:jdbc:mysql://20.48.5.5:4407/leyou?characterEncoding=UTF-8&useSSL=false
+    username:root
+    password:123456
     hikari:
       maximum-pool-size: 20
       minimum-idle: 10
